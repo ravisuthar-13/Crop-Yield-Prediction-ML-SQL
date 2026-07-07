@@ -1,5 +1,9 @@
 # 🌾 Crop Yield Prediction using Machine Learning & SQL
 
+<p align="center">
+  <img src="images/cover.png" width="100%">
+</p>
+
 ## Overview
 
 This project predicts crop yield categories using Machine Learning techniques and SQL-based data analysis.
