@@ -83,22 +83,26 @@ The project uses multiple agricultural datasets for data analysis and model deve
 
 ---
 
+## ⭐ Project Features
+
+- 📊 Exploratory Data Analysis (EDA)
+- 🧹 Data Cleaning & Preprocessing
+- 🤖 Machine Learning Classification
+- 📈 Model Evaluation
+- 🗄️ SQL Data Analysis
+- 🌾 Crop Yield Prediction
+
+---
+
 ## 🔄 Project Workflow
 
 - 📥 Raw Agricultural Data
-  ↓
 - 🧹 Data Cleaning
-  ↓
 - 📊 Exploratory Data Analysis (EDA)
-  ↓
 - ⚙️ Feature Engineering
-  ↓
 - 🔄 Data Preprocessing
-  ↓
 - 🤖 Model Training
-  ↓
 - 📈 Model Evaluation
-  ↓
 - 🌾 Crop Yield Prediction
 
 ---
@@ -143,27 +147,29 @@ Random Forest outperformed KNN across all evaluation metrics.
 
 ## 📈 Results
 
-The developed Random Forest model successfully classified crop yield into different categories with an overall accuracy of **96.12%**.
+The Random Forest model successfully classified crop yield into different categories with an overall accuracy of **96.12%**.
 
-Key outcomes:
+### Key Achievements
 
-- Accurate crop yield prediction
-- Effective data preprocessing
-- Insightful exploratory data analysis
-- Reliable Machine Learning model
+- ✅ Achieved 96.12% prediction accuracy
+- ✅ Performed complete data preprocessing
+- ✅ Conducted exploratory data analysis
+- ✅ Compared multiple Machine Learning models
+- ✅ Selected the best-performing model
 
 ---
 
 ## 🗄️ SQL Analysis
 
-SQL was used to analyze the agricultural dataset and extract useful insights before Machine Learning.
+SQL was used to analyze the agricultural dataset and uncover important insights before building the Machine Learning model.
 
-### SQL Analysis Included
+### SQL Queries Performed
 
-- Crop production by state
-- Crop-wise production analysis
-- Seasonal crop trends
-- Rainfall and production insights
-- Regional agricultural performance
+- 🌾 Crop production by state
+- 📊 Crop-wise production analysis
+- 🌦️ Rainfall and production relationship
+- 🌱 Fertilizer usage analysis
+- 📈 High-yield crop identification
+- 🗺️ Regional agricultural performance
 
-These SQL analyses helped understand the dataset and supported the Machine Learning workflow.
+These SQL analyses helped explore the dataset and supported the Machine Learning workflow.
