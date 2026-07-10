@@ -106,24 +106,25 @@ Crop Yield Prediction
 
 ---
 
-## 🤖 Machine Learning Model
+## 🤖 Machine Learning Models
 
-This project uses Machine Learning to classify crop yield into different categories based on agricultural factors.
+Two Machine Learning models were trained and evaluated.
 
-### Models Implemented
+### 1. K-Nearest Neighbors (KNN)
 
-- K-Nearest Neighbors (KNN)
-- Random Forest Classifier
+- Used as the baseline classification model.
+- Accuracy: ~72%
 
-### Final Selected Model
+### 2. Random Forest Classifier
 
-✅ Random Forest Classifier
+- Final selected model.
+- Accuracy: 96.12%
 
-The Random Forest model was selected as the final model because it achieved the highest prediction accuracy and better overall performance.
+Random Forest produced the highest accuracy and was selected as the final prediction model.
 
 ## 📊 Model Evaluation
 
-The models were evaluated using the following metrics:
+The trained models were evaluated using:
 
 - Accuracy Score
 - Confusion Matrix
@@ -132,9 +133,11 @@ The models were evaluated using the following metrics:
 - Recall
 - F1-Score
 
-### Final Accuracy
+### Best Model
 
-🎯 **Random Forest Accuracy: 96.12%**
+🏆 Random Forest Classifier
+
+Accuracy: **96.12%**
 
 ---
 
