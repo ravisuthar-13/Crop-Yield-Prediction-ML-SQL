@@ -85,51 +85,72 @@ The project uses multiple agricultural datasets for data analysis and model deve
 
 ## 🔄 Project Workflow
 
-```mermaid
-flowchart TD
-    A[Raw Agricultural Data]
-    --> B[Data Cleaning]
-    --> C[Exploratory Data Analysis]
-    --> D[Feature Engineering]
-    --> E[Data Preprocessing]
-    --> F[Model Training]
-    --> G[Model Evaluation]
-    --> H[Crop Yield Prediction]
+- 📥 Raw Agricultural Data
+  ↓
+- 🧹 Data Cleaning
+  ↓
+- 📊 Exploratory Data Analysis (EDA)
+  ↓
+- ⚙️ Feature Engineering
+  ↓
+- 🔄 Data Preprocessing
+  ↓
+- 🤖 Model Training
+  ↓
+- 📈 Model Evaluation
+  ↓
+- 🌾 Crop Yield Prediction
 
 ---
 
 ## 🤖 Machine Learning Models
 
-Two Machine Learning models were trained and evaluated.
+Two Machine Learning classification models were developed and evaluated to predict crop yield categories.
 
-### 1. K-Nearest Neighbors (KNN)
+### 🌱 K-Nearest Neighbors (KNN)
 
 - Used as the baseline classification model.
-- Accuracy: ~72%
+- Accuracy: **72%**
 
-### 2. Random Forest Classifier
+### 🌳 Random Forest Classifier
 
-- Final selected model.
-- Accuracy: 96.12%
+- Used as the final prediction model.
+- Accuracy: **96.12%**
 
-Random Forest produced the highest accuracy and was selected as the final prediction model.
+✅ Random Forest delivered significantly higher prediction accuracy and better overall performance, making it the final selected model for this project.
+
+---
 
 ## 📊 Model Evaluation
 
 The trained models were evaluated using:
 
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
-- Precision
-- Recall
-- F1-Score
+- ✅ Accuracy Score
+- ✅ Confusion Matrix
+- ✅ Classification Report
+- ✅ Precision
+- ✅ Recall
+- ✅ F1-Score
 
-### Best Model
+### 🏆 Final Model Performance
 
-🏆 Random Forest Classifier
+| Model | Accuracy |
+|--------|----------|
+| K-Nearest Neighbors | 72% |
+| Random Forest | **96.12%** |
 
-Accuracy: **96.12%**
+Random Forest outperformed KNN across all evaluation metrics.
+
+## 📈 Results
+
+The developed Random Forest model successfully classified crop yield into different categories with an overall accuracy of **96.12%**.
+
+Key outcomes:
+
+- Accurate crop yield prediction
+- Effective data preprocessing
+- Insightful exploratory data analysis
+- Reliable Machine Learning model
 
 ---
 
