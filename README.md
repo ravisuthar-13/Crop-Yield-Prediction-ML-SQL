@@ -103,3 +103,51 @@ Model Training
 Model Evaluation
         ↓
 Crop Yield Prediction
+
+---
+
+## 🤖 Machine Learning Model
+
+This project uses Machine Learning to classify crop yield into different categories based on agricultural factors.
+
+### Models Implemented
+
+- K-Nearest Neighbors (KNN)
+- Random Forest Classifier
+
+### Final Selected Model
+
+✅ Random Forest Classifier
+
+The Random Forest model was selected as the final model because it achieved the highest prediction accuracy and better overall performance.
+
+## 📊 Model Evaluation
+
+The models were evaluated using the following metrics:
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- Precision
+- Recall
+- F1-Score
+
+### Final Accuracy
+
+🎯 **Random Forest Accuracy: 96.12%**
+
+---
+
+## 🗄️ SQL Analysis
+
+SQL was used to analyze the agricultural dataset and extract useful insights before Machine Learning.
+
+### SQL Analysis Included
+
+- Crop production by state
+- Crop-wise production analysis
+- Seasonal crop trends
+- Rainfall and production insights
+- Regional agricultural performance
+
+These SQL analyses helped understand the dataset and supported the Machine Learning workflow.
