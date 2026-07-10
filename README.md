@@ -85,24 +85,16 @@ The project uses multiple agricultural datasets for data analysis and model deve
 
 ## 🔄 Project Workflow
 
-```text
-Raw Agricultural Data
-        ↓
-Data Cleaning
-        ↓
-Exploratory Data Analysis
-        ↓
-SQL Analysis
-        ↓
-Feature Engineering
-        ↓
-Data Preprocessing
-        ↓
-Model Training
-        ↓
-Model Evaluation
-        ↓
-Crop Yield Prediction
+```mermaid
+flowchart TD
+    A[Raw Agricultural Data]
+    --> B[Data Cleaning]
+    --> C[Exploratory Data Analysis]
+    --> D[Feature Engineering]
+    --> E[Data Preprocessing]
+    --> F[Model Training]
+    --> G[Model Evaluation]
+    --> H[Crop Yield Prediction]
 
 ---
 
