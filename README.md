@@ -5,7 +5,7 @@
 <h1 align="center">🌾 Crop Yield Prediction using Machine Learning & SQL</h1>
 
 <p align="center">
-  A complete Data Science project combining agricultural data analysis, SQL, Machine Learning, and model evaluation.
+  An end-to-end Data Science project for crop yield prediction using Python, SQL, Exploratory Data Analysis, and Machine Learning.
 </p>
 
 <p align="center">
@@ -83,7 +83,7 @@ The project uses multiple agricultural datasets for data analysis and model deve
 
 ---
 
-## ⭐ Project Features
+## ✨ Key Features
 
 - 📊 Exploratory Data Analysis (EDA)
 - 🧹 Data Cleaning & Preprocessing
@@ -173,3 +173,64 @@ SQL was used to analyze the agricultural dataset and uncover important insights 
 - 🗺️ Regional agricultural performance
 
 These SQL analyses helped explore the dataset and supported the Machine Learning workflow.
+
+---
+
+## 📂 Project Structure
+
+```text
+Crop-Yield-Prediction-ML-SQL/
+│
+├── 📁 images/
+├── 📄 Climate_Agriculture.csv
+├── 📄 Crop Prediction Dataset (U).csv
+├── 📄 Crop Prediction.csv
+├── 📄 Crop_Production.csv
+├── 📓 Crop_Prediction.ipynb
+├── 📓 Crop_Yield_Prediction.ipynb
+├── 🗄️ crop_prediction.sql
+├── 📊 ravi.twbx
+├── 📄 requirements.txt
+├── 📄 .gitignore
+└── 📘 README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+- 🌐 Deploy the model as a web application
+- ☁️ Integrate live weather data
+- 🤖 Explore advanced ML algorithms (XGBoost, LightGBM)
+- 📊 Create an interactive analytics dashboard
+- 📱 Build a responsive user interface
+
+---
+
+## 👨‍💻 Author
+
+**Ravi Suthar**
+
+**Passionate Data Science learner building practical Machine Learning, SQL, and Analytics projects.**
+
+- 🌐 Portfolio: https://ravisuthar-13.github.io/ravi-portfolio/
+- 💼 LinkedIn: https://www.linkedin.com/in/ravi-suthar/
+- 🐙 GitHub: https://github.com/ravisuthar-13
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project for learning and educational purposes.
+
+---
+
+<p align="center">
+⭐ If you found this project helpful, consider giving it a Star on GitHub!
+</p>
+
+<p align="center">
+Made with ❤️ by <b>Ravi Suthar</b>
+</p>
